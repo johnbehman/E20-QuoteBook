@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>E20 Quote Book</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <div id="quotes"></div>
+    <div id="authorsList"></div>
+    <h1>Quote Book</h1>
+    <article>
+      <section class="quoteBlockForm">
+        <input type="text" id="quoteText" placeholder="quote" />
+        <input type="text" id="quoteAuthor" placeholder="author" />
+        <div>
+          <p>Is Author Alive</p>
+          <input type="radio" id="aliveTrue" name="alive" value="true" />
+          <label for="aliveTrue">Yes</label>
+          <input type="radio" id="aliveFalse" name="alive" value="false" />
+          <label for="aliveFalse">No</label>
+        </div>
+        <button id="submitNewQuote">Submit</button>
+      </section>
+      <section id="quoteBlocks" class="quoteBlocks"></section>
+    </article>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

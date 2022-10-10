@@ -1,0 +1,21 @@
+{
+    "quotes": [],
+    "authors": [
+        {
+            "id": 1,
+            "firstName": "The Future Dr. Noh"
+        },
+        {
+            "id": 2,
+            "firstName": "Lynn"
+        },
+        {
+            "id": 3,
+            "firstName": "Trevor"
+        },
+        {
+            "id": 4,
+            "firstName": "Alexa"
+        }
+    ]
+}
